@@ -50,3 +50,5 @@ d1["name"] = "vivek"
 print(d1["name"])
 s = {1,1,2,2,3,3,4,4,}
 print(s)
+
+print("New day new code")
