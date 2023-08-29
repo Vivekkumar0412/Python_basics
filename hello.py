@@ -129,3 +129,5 @@ print(chr(65))
 
 v = "VIVEK {} RAJPUT".format("SINGH")
 print(v)
+
+print("NEW DAY A NEW BEGAINING STREAK SAVED")
