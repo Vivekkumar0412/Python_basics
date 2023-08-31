@@ -131,12 +131,27 @@
 # print(v)
 #
 # print("NEW DAY A NEW BEGAINING STREAK SAVED")
-sci = eval(input("ENTER SCIENCE MARKS : - "))
-maths = eval(input("ENTER SCIENCE MARKS : - "))
-eng = eval(input("ENTER SCIENCE MARKS : - "))
-avg = (sci + maths + eng)/3
-print(avg)
+# sci = eval(input("ENTER SCIENCE MARKS : - "))
+# maths = eval(input("ENTER SCIENCE MARKS : - "))
+# eng = eval(input("ENTER SCIENCE MARKS : - "))
+# avg = (sci + maths + eng)/3
+# print(avg)
+#
+# for d in range(1,11):
+#     pass
+# print(d*d)/
+l1 = [1,1,1,2,3,[9,8,0],4,5,6,78]
+print(l1[4])
+for i in range(len(l1)):
+    print(l1[i], end = " ")
 
-for d in range(1,11):
-    print(d*d)
-
+print()
+print(l1[1::2])
+l2 = [3,4,6,4,2,46,7,8,88,9,0]
+c = 0
+for i in range(len(l2)):
+    if c < l2[i]:
+        c = l2[i]
+for j in range(len(l2)-1, -1, -1):
+    print(l2[j], end = " ")
+print(c)
