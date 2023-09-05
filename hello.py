@@ -338,3 +338,19 @@ for i in range(1,6):
         else:
             print(" ")
     print()
+
+
+a = "abcd"
+b = "cdba"
+if(sorted(a) == sorted(b)):
+    print("hi")
+print(sorted(a))
+
+for i in range(4):
+    for j in range(i,5):
+        print(" ",end="")
+    for k in range(i):
+        print("*",end="")
+    for l in range(i+1):
+        print("*",end="")
+    print()
