@@ -364,3 +364,13 @@ for i in range(5):
     for m in range(i,n):
         print("*",end="")
     print()
+
+a = 0
+b = 1
+print(a)
+print(b)
+for i in range(10):
+    temp = a + b
+    print(temp)
+    a = b
+    b = temp
