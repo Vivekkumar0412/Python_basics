@@ -374,3 +374,15 @@ for i in range(10):
     print(temp)
     a = b
     b = temp
+
+# check number is prime
+def isPrime(a):
+    for i in range(2,a):
+        if(a %i == 0):
+            return "Not a prime"
+
+    return "Prime"
+
+a = 15
+for i in range(1,a):
+    print(i," is ",isPrime(i))
