@@ -386,3 +386,24 @@ def isPrime(a):
 a = 15
 for i in range(1,a):
     print(i," is ",isPrime(i))
+
+
+b = 1899
+# c = str(b)
+# print(int(c[::-1]))
+c = b
+num = 0
+while b!= 0:
+    num = (num*10) + (b%10)
+    b = b//10
+print(num)
+
+# sum of digits
+a = 12
+sum = 0
+while a!=0:
+    last = a%10
+    sq = last * last
+    sum+=sq
+    a = a//10
+print(sum)
