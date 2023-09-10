@@ -407,3 +407,12 @@ while a!=0:
     sum+=sq
     a = a//10
 print(sum)
+import math,random
+# import random
+print(math.ceil(10.9))
+print(random.randint(5,10))
+l = [1,2,3,4,5]
+t = ('v','i','k','j','f','b')
+print(random.choice(l))
+print(random.choice(t))
+
