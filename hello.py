@@ -415,4 +415,8 @@ l = [1,2,3,4,5]
 t = ('v','i','k','j','f','b')
 print(random.choice(l))
 print(random.choice(t))
+s1 = set(l)
+print(type(s1),s1)
+l2 = list(s1)
+print(l2,type(l2))
 
